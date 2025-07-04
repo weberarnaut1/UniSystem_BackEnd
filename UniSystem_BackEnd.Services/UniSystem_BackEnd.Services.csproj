@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UniSystem_BackEnd.IRepository\UniSystem_BackEnd.IRepository.csproj" />
+    <ProjectReference Include="..\UniSystem_BackEnd.IServices\UniSystem_BackEnd.IServices.csproj" />
+    <ProjectReference Include="..\UniSystem_BackEnd.Repository\UniSystem_BackEnd.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

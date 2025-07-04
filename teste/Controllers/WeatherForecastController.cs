@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace UniSystem_BackEnd.webAPI.Controllers
+namespace teste.Controllers
 {
     [ApiController]
     [Route("[controller]")]

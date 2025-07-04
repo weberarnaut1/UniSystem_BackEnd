@@ -1,0 +1,6 @@
+@UniSystem_BackEnd.Api_HostAddress = http://localhost:5264
+
+GET {{UniSystem_BackEnd.Api_HostAddress}}
+Accept: application/json
+
+###

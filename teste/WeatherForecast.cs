@@ -1,4 +1,4 @@
-namespace UniSystem_BackEnd.webAPI
+namespace teste
 {
     public class WeatherForecast
     {

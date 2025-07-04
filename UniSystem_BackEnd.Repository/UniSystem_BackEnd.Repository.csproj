@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Extensions.PostgreSQL" Version="5.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UniSystem_BackEnd.Domain\UniSystem_BackEnd.Domain.csproj" />
+    <ProjectReference Include="..\UniSystem_BackEnd.IRepository\UniSystem_BackEnd.IRepository.csproj" />
+    <ProjectReference Include="..\UniSystem_BackEnd.Libs\UniSystem_BackEnd.Libs.csproj" />
+  </ItemGroup>
+
+</Project>
