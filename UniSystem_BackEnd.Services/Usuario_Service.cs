@@ -44,7 +44,7 @@ namespace UniSystem_BackEnd.Services
             {
                 if (ex.Message.Contains("UR002"))
                 {
-                    throw new Exception("", ex);
+                    throw new Exception(ex.Message, ex);
                 }
                 else
                 {
@@ -62,7 +62,7 @@ namespace UniSystem_BackEnd.Services
             {
                 if (ex.Message.Contains("UR003"))
                 {
-                    throw new Exception("", ex);
+                    throw new Exception(ex.Message, ex);
                 }
                 else
                 {
@@ -80,7 +80,7 @@ namespace UniSystem_BackEnd.Services
             {
                 if (ex.Message.Contains("UR004"))
                 {
-                    throw new Exception("", ex);
+                    throw new Exception(ex.Message, ex);
                 }
                 else
                 {
